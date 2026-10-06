@@ -1,4 +1,8 @@
 const jobs = [
+  {id:10,title:"Dokter Umum",company:"RSUD Samarinda",location:"Samarinda",major:"Kedokteran",type:"Full Time",salary:"Rp8,0 - 12,0 jt",initial:"RS",requirements:["Profesi Dokter","Memiliki STR dokter yang masih berlaku","Memiliki SIP atau siap memenuhi persyaratan perizinan","Mampu memberikan pelayanan medis umum","Komunikatif dan mampu bekerja dalam tim"]},
+  {id:11,title:"Dokter Spesialis Penyakit Dalam",company:"RS Borneo Sejahtera",location:"Balikpapan",major:"Dokter Spesialis",type:"Full Time",salary:"Rp18 - 30 jt",initial:"BS",requirements:["Profesi Dokter dan Spesialis Penyakit Dalam","Memiliki STR dokter spesialis yang masih berlaku","Memiliki SIP atau siap memenuhi persyaratan perizinan","Berpengalaman memberikan pelayanan spesialistik","Mampu bekerja sama dengan tim multidisiplin"]},
+  {id:12,title:"Dokter Spesialis Anak",company:"RSIA Bunda Borneo",location:"Bontang",major:"Dokter Spesialis",type:"Kontrak",salary:"Rp18 - 28 jt",initial:"BB",requirements:["Profesi Dokter dan Spesialis Anak","Memiliki STR dokter spesialis yang masih berlaku","Memiliki SIP atau siap memenuhi persyaratan perizinan","Berpengalaman dalam pelayanan pediatri","Mampu memberikan komunikasi yang baik kepada pasien dan keluarga"]},
+  {id:13,title:"Dokter Spesialis Obstetri dan Ginekologi",company:"RSIA Bunda Borneo",location:"Samarinda",major:"Dokter Spesialis",type:"Full Time",salary:"Rp20 - 32 jt",initial:"BB",requirements:["Profesi Dokter dan Spesialis Obstetri dan Ginekologi","Memiliki STR dokter spesialis yang masih berlaku","Memiliki SIP atau siap memenuhi persyaratan perizinan","Berpengalaman dalam pelayanan obstetri dan ginekologi","Mampu bekerja dalam tim pelayanan rumah sakit"]},
   {id:1,title:"Staff Administrasi Kesehatan",company:"RSU Medika Utama",location:"Samarinda",major:"Administrasi Kesehatan",type:"Full Time",salary:"Rp4,5 - 6,0 jt",initial:"MU",requirements:["Minimal D3/S1 Administrasi Kesehatan atau bidang terkait","Menguasai administrasi pelayanan kesehatan","Mampu menggunakan Microsoft Office","Komunikatif dan teliti"]},
   {id:2,title:"Petugas Rekam Medis",company:"Klinik Sehat Sentosa",location:"Balikpapan",major:"Rekam Medis",type:"Full Time",salary:"Rp4,0 - 5,5 jt",initial:"KS",requirements:["Minimal D3 Rekam Medis","Memahami sistem pengelolaan rekam medis","Memiliki STR aktif menjadi nilai tambah","Teliti dan bertanggung jawab"]},
   {id:3,title:"Perawat Pelaksana",company:"RSIA Bunda Borneo",location:"Bontang",major:"Keperawatan",type:"Kontrak",salary:"Rp4,5 - 6,5 jt",initial:"BB",requirements:["Minimal D3/S1 Keperawatan","Memiliki STR dan sertifikat kompetensi","Mampu bekerja dalam tim","Bersedia bekerja shift"]},
@@ -11,7 +15,7 @@ const jobs = [
 ];
 
 const categories = [
-  ["🗂️","Administrasi Kesehatan"],["📋","Rekam Medis"],["🩺","Keperawatan"],["💊","Farmasi"],["👶","Kebidanan"],["🧪","Teknologi Laboratorium Medis"],["🥗","Gizi"],["🏥","Manajemen Rumah Sakit"]
+  ["🩺","Kedokteran"],["👨‍⚕️","Dokter Spesialis"],["🗂️","Administrasi Kesehatan"],["📋","Rekam Medis"],["🩺","Keperawatan"],["💊","Farmasi"],["👶","Kebidanan"],["🧪","Teknologi Laboratorium Medis"],["🥗","Gizi"],["🏥","Manajemen Rumah Sakit"]
 ];
 
 const grid = document.getElementById("jobGrid");
